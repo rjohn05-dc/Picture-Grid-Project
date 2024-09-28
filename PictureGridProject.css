@@ -7,3 +7,44 @@ nav>a{
     margin:10px;
     padding:10px;
 }
+
+.container{
+    display:grid;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+                        "costume costume costume costume facebook"
+                        "costume costume costume costume twitter"
+                        "birthday birthday chuckes clowngrandma LazyTown";
+
+                        
+}                        
+
+.costume.png{
+    grid-area:costume;
+}
+
+.Facebook.png{
+    grid-area:facebook;
+}
+
+.twitter.png{
+    grid-area:twitter;
+}
+
+.birthday.png{
+    grid-area:birthday;
+}
+
+.chuckles.png{
+    grid-area:chuckles;
+}
+
+.clowngrandma.png{
+    grid-area:clowngrandma;
+}
+
+.LazyTown.png{
+    grid-area:LazyTown;
+}
