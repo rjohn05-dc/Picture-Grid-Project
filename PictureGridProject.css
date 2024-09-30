@@ -16,21 +16,23 @@ nav>a{
     grid-template-areas:
                         "costume costume costume costume facebook"
                         "costume costume costume costume twitter"
-                        "birthday birthday chuckes clowngrandma LazyTown";
+                        "costume costume costume costume mask"
+                        "birthday birthday chuckles clowngrandma LazyTown"
+                        "blues superhero superhero candy history"
 
                         
 }                        
 
 .costume.png{
-    grid-area:costume;
+    grid-area: costume;
 }
 
 .Facebook.png{
-    grid-area:facebook;
+    grid-area: facebook;
 }
 
 .twitter.png{
-    grid-area:twitter;
+    grid-area: twitter;
 }
 
 .birthday.png{
@@ -39,6 +41,7 @@ nav>a{
 
 .chuckles.png{
     grid-area:chuckles;
+    grid-area: c;
 }
 
 .clowngrandma.png{
@@ -47,4 +50,8 @@ nav>a{
 
 .LazyTown.png{
     grid-area:LazyTown;
+}
+
+.birthday.png{
+    
 }
