@@ -13,8 +13,7 @@ nav>a{
     
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(8, auto);
-    grid-template-areas:
-                        "costume costume costume costume facebook"
+    grid-template-areas: "costume costume costume costume facebook"
                         "costume costume costume costume twitter"
                         "birthday birthday chuckes clowngrandma LazyTown";
 
