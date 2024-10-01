@@ -11,46 +11,109 @@ nav>a{
 .container{
     display:grid;
     
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, auto);
+    grid-template-columns:auto;
+    grid-template-rows: auto;
     grid-template-areas: "costume costume costume costume facebook"
                         "costume costume costume costume twitter"
                         "costume costume costume costume mask"
                         "birthday birthday chuckles clowngrandma LazyTown"
-                        "blues superhero superhero candy history"
+                        "Blues superhero superhero candy history"
+                        "Blues santa barbie barbie freeshipping"
+                        "props santa halloween halloween2 spooky "
+                        "blackmask ball ball . address";
 
-                        
-}                        
+    gap: 10px;
+}           
 
-.costume.png{
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.costume{
     grid-area: costume;
 }
 
-.Facebook.png{
+.Facebook{
     grid-area: facebook;
 }
 
-.twitter.png{
+.twitter{
     grid-area: twitter;
 }
 
-.birthday.png{
+.Mask{
+    grid-area:mask;
+}
+
+.birthday{
     grid-area:birthday;
 }
 
-.chuckles.png{
+.chuckles{
     grid-area:chuckles;
-    grid-area: c;
+    
 }
 
-.clowngrandma.png{
+.clowngrandma{
     grid-area:clowngrandma;
 }
 
-.LazyTown.png{
+.lazyTown{
     grid-area:LazyTown;
 }
 
-.birthday.png{
-    
+.blues{
+    grid-area:Blues;
+}
+
+.superhero{
+    grid-area:superhero;
+}
+
+.candy{
+    grid-area:candy;
+}
+.history{
+    grid-area:history;
+}
+
+.santa{
+    grid-area:santa;
+}
+
+.barbie{
+    grid-area:barbie;
+}
+
+.freeshipping{
+    grid-area:freeshipping;
+}
+
+.halloween{
+    grid-area:halloween;
+}
+
+.halloween2{
+    grid-area:halloween2;
+}
+
+.spooky{
+    grid-area:spooky;
+}
+
+.props {
+    grid-area: props;
+}
+
+.blackmask{
+    grid-area:blackmask;
+}
+
+.ball{
+    grid-area:ball;
+}
+
+.address{
+    grid-area:address;
 }
